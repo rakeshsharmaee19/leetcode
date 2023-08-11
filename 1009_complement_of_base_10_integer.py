@@ -1,5 +1,6 @@
 class Solution:
     def bitwiseComplement(self, n: int) -> int:
+        
         a  = str(bin(n))[2:]
         for i in range(len(a)):
             if a[i] == '0':
